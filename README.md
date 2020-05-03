@@ -1,5 +1,5 @@
-# asa_branca_daughtership
- O repositório para o módulo daughtership do projeto Asa Branca Rocket Design
+# Asa Branca Daughtership code
+Este é o repositório para o módulo daughtership do projeto Asa Branca Rocket Design
 
 Para compilá-lo, primeiro instale o ESP-FreeRTOS e seu ambiente de desenvolvimento seguindo os passos delineados nesta [página](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/).
 
@@ -11,7 +11,8 @@ Assumindo que este ambiente foi instalado em `~/esp`, rode os seguintes comandos
 Isto criará uma pasta dentro de `~/esp` com o nome asa\_branca\_daughtership.  Este será o projeto.  Em seguida, dentro deste diretório, crie uma pasta components.  Dentro desta subpasta, rode os comandos
 
         git clone https://github.com/betegelse/hydra_daughtership.git
-        git clone XXXX
+        git clone https://github.com/betegelse/hydra_daughtership_esp.git
+        git clone PYXIS
 
 Para compilar o código, volte para o diretório asa\_branca\_daughtership e rode `. ../esp-idf/export.sh`. Depois, rode `idf.py build` (ou qualquer outra variante) para compilar o código. Parabéns, você tem um ambiente para começar a programar o Asa Branca.
 
